@@ -1,0 +1,24 @@
+{
+  "accounts": [
+    { "id": "account01", "label": "Account 01", "profileDir": "./accounts/account01", "enabled": true },
+    { "id": "account02", "label": "Account 02", "profileDir": "./accounts/account02", "enabled": true },
+    { "id": "account03", "label": "Account 03", "profileDir": "./accounts/account03", "enabled": true },
+    { "id": "account04", "label": "Account 04", "profileDir": "./accounts/account04", "enabled": true },
+    { "id": "account05", "label": "Account 05", "profileDir": "./accounts/account05", "enabled": true },
+    { "id": "account06", "label": "Account 06", "profileDir": "./accounts/account06", "enabled": true },
+    { "id": "account07", "label": "Account 07", "profileDir": "./accounts/account07", "enabled": true },
+    { "id": "account08", "label": "Account 08", "profileDir": "./accounts/account08", "enabled": true },
+    { "id": "account09", "label": "Account 09", "profileDir": "./accounts/account09", "enabled": true },
+    { "id": "account10", "label": "Account 10", "profileDir": "./accounts/account10", "enabled": true },
+    { "id": "account11", "label": "Account 11", "profileDir": "./accounts/account11", "enabled": true },
+    { "id": "account12", "label": "Account 12", "profileDir": "./accounts/account12", "enabled": true },
+    { "id": "account13", "label": "Account 13", "profileDir": "./accounts/account13", "enabled": true },
+    { "id": "account14", "label": "Account 14", "profileDir": "./accounts/account14", "enabled": true },
+    { "id": "account15", "label": "Account 15", "profileDir": "./accounts/account15", "enabled": true },
+    { "id": "account16", "label": "Account 16", "profileDir": "./accounts/account16", "enabled": true },
+    { "id": "account17", "label": "Account 17", "profileDir": "./accounts/account17", "enabled": true },
+    { "id": "account18", "label": "Account 18", "profileDir": "./accounts/account18", "enabled": true },
+    { "id": "account19", "label": "Account 19", "profileDir": "./accounts/account19", "enabled": true },
+    { "id": "account20", "label": "Account 20", "profileDir": "./accounts/account20", "enabled": true }
+  ]
+}

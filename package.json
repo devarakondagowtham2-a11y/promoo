@@ -1,0 +1,36 @@
+{
+  "name": "promo-automation",
+  "version": "1.0.0",
+  "description": "20-account Promocode Automation System with dual-node WebSocket architecture",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/index.js start",
+    "worker": "node dist/index.js worker",
+    "setup": "node dist/index.js setup",
+    "test-code": "node dist/index.js test",
+    "postinstall": "npx playwright install chromium"
+  },
+  "keywords": [
+    "automation",
+    "playwright",
+    "promo-code"
+  ],
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^12.1.0",
+    "dotenv": "^16.4.5",
+    "input": "^1.0.1",
+    "playwright": "^1.48.0",
+    "telegram": "^2.26.22",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.0",
+    "@types/ws": "^8.5.12",
+    "typescript": "^5.6.2"
+  }
+}

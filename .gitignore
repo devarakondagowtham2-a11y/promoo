@@ -1,0 +1,6 @@
+node_modules/
+dist/
+accounts/
+logs/*.log
+.env
+*.log

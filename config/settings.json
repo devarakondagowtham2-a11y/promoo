@@ -1,0 +1,52 @@
+{
+  "selectors": {
+    "promoExpander": "I have a promocode",
+    "promoInput": "Enter Promocode",
+    "confirmButton": "Confirm"
+  },
+  "navigation": {
+    "timeout": 30000,
+    "waitAfterNavigate": 2000,
+    "waitAfterSubmit": 5000
+  },
+  "results": {
+    "successPatterns": [
+      "successfully",
+      "redeemed",
+      "applied",
+      "congratulations",
+      "promo code activated",
+      "bonus"
+    ],
+    "alreadyRedeemedPatterns": [
+      "already been used",
+      "already redeemed",
+      "already applied",
+      "already claimed"
+    ],
+    "invalidPatterns": [
+      "invalid",
+      "not found",
+      "does not exist",
+      "wrong code",
+      "incorrect"
+    ],
+    "expiredPatterns": [
+      "expired",
+      "no longer valid",
+      "no longer available"
+    ]
+  },
+  "retry": {
+    "maxAttempts": 2,
+    "delayMs": 3000
+  },
+  "browser": {
+    "viewport": { "width": 1280, "height": 720 },
+    "userAgent": null,
+    "locale": "en-US"
+  },
+  "telegram": {
+    "extractRegex": "Code:\\s*([A-Z0-9]{6,12})"
+  }
+}
